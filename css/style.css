@@ -1,0 +1,97 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-image: url('../img/forest-5375005_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+.container {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+h1 {
+    font-size: 90px;
+    color: #f1f1f1;
+    font-family: Abril fatface, sans-serif;
+}
+h1 span {
+    position: relative;
+}
+.container-btns {
+    position: relative;
+    top: 50px;
+}
+.btn-first {
+    border: 2px solid #f1f1f1;
+    outline: none;
+    background: transparent;
+    font-size: 30px;
+    padding: 20px;
+    margin: 0 15px;
+    border-radius: 5px;
+    width: 300px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+.btn-first:hover {
+    transition: all 0.3s ease-in-out;
+    background: #f1f1f1;
+    color: #333;
+}
+nav {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    opacity: 1;
+}
+.nav-link {
+    color: #f1f1f1;
+    font-size: 25px;
+    margin: 0 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.nav-link:hover {
+    transition: all 0.5s ease-out;
+    border-bottom: 2px solid #f1f1f1;
+}
+.medias {
+    list-style-type: none;
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bulle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #f1f1f1;
+    cursor: pointer;
+    position: relative;
+}
+.bulle:hover {
+    transition: all 0.2s ease-out;
+    transform: scale(1.2);
+}
+.social-icon {
+    font-size: 35px;
+}
